@@ -6,6 +6,8 @@ class user(models.Model):
     Age = models.CharField(max_length=200)
     Hobby = models.CharField(max_length=255)
     Address = models.CharField(max_length=255)
+    Sex = models.CharField(max_length=10)
+    
 
 
     
