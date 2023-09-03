@@ -5,6 +5,7 @@ class user(models.Model):
     Name = models.CharField(max_length=255)
     Age = models.CharField(max_length=200)
     Hobby = models.CharField(max_length=255)
-
+    Location = models.CharField(max_length=255)
+    
 
     
